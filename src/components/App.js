@@ -81,6 +81,7 @@ class App extends React.Component {
           before: data.data.before
         });
         window.scrollTo(0, 0);
+        console.log(state);
       })
       .catch(console.log)
   }
